@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: #041334;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h3{
+    color: white;
+    font-size: 1.5em;
+    margin: 0px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+.search img {
+    height: 30px;
+}
+@media screen and (max-width:768px)  {
+    .logo{
+        flex: 0 0 auto;
+    }
+    nav{
+        flex:1;
+        text-align: center;
+    }
+    .search{
+        flex:  0 0 auto ;
+    }
+}
+.nav-toggle-label{
+    display: none;
+}
+.nav-toggle-label span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+}
+.text{
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px 0px 25px;
+}
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+table{
+    width: 100%;
+}
+th,td {
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+.click{
+    padding: 8px 15px 8px 15px ;
+    background-color: blue;
+    color: #000;
+    border-radius: 7px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.platform{
+    color: whitesmoke;
+}
+footer{
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
